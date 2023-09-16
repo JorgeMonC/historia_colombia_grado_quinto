@@ -1,0 +1,59 @@
+
+html, body{
+    font-family: Verdana; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+   
+}
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+   
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.center_col_02{
+    grid-template-rows:2fr 2fr;
+    display: grid;
+    margin: 0;
+    border: none;
+    justify-items:center;  
+    align-items: center; 
+}
+
+.carita{
+     
+    display: grid;
+    height: 15vh;
+    width: 15vw;
+    justify-items:center;  
+    align-items: center; 
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+
+.resultado{
+    
+    color: #fff; 
+    display: grid;
+    font-size: 5vh;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}

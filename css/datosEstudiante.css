@@ -1,0 +1,121 @@
+
+html, body{
+    font-family: Verdana; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+@font-face{
+    font-family:copperplate;
+    src: url(COPRGTB.TTF);
+}
+
+
+.contenedor{
+
+    background: radial-gradient(#27539e, #072152);
+    display: grid;
+    grid-template-rows:4fr 8fr 4fr ;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    border:0px;
+
+    
+}
+
+.top{
+    /*background: rgb(6, 233, 25);*/
+    color: #fff; 
+    display: grid;
+    font-size: 3.5vh;
+    text-align: center;
+    font-family: copperplate;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    
+}
+
+.center{
+    background-image: url("https://arca3d.net/web/imagenes/lineas_horizontales.png") ;
+    grid-template-columns:4fr 4fr 4fr ;
+    color: #fff; 
+    display: grid;
+}
+.center_col_01{
+   
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+    width: 30vw;
+    height: 50vh;
+
+    
+}
+.center_col_02{
+    grid-template-rows:8fr 1fr;
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+  
+}
+/* .bot{
+    padding-top: 20px;
+} */
+#continuar{
+        border: 2px solid #072152; /*anchura, estilo y color borde*/
+        padding: 30px;
+        font-weight: bold;
+        width: 60%;
+        background-color: #072152; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 30px; /*bordes redondos*/
+        border-color: aqua;
+        font-size: 2.5vh;
+        font-family: copperplate;
+        text-align: center;
+        letter-spacing: 2px;
+        margin:  auto;
+        display: block;       
+}
+#continuar:hover{
+    background-color:#27539e;
+    transition: 0.7s;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-color: #ffffff;
+    font-size: 3vh;  
+    color: #fff;
+    margin: 10px;
+  }
+  label {
+    font-size: 3vh;
+    margin: 10px;
+  }
+
+ 
+
+.center_col_03{
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+    
+}
+.foot{
+    
+    justify-items:center;  
+    align-items: center; 
+}

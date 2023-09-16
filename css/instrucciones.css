@@ -1,0 +1,177 @@
+
+html, body{
+    font-family: Verdana; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+
+@font-face{
+    font-family:copperplate;
+    src: url(COPRGTB.TTF);
+}
+
+
+.contenedor{
+
+    background: radial-gradient(#27539e, #072152
+    );
+    
+    display: grid;
+    grid-template-rows:3fr 8fr 3fr ;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    border:0px;
+
+    
+}
+
+.top{
+    /*background: rgb(6, 233, 25);*/
+    grid-template-columns:4fr 4fr 4fr ;
+    color: #fff; 
+    display: grid;
+    font-size: 4vh;
+    text-align: center;
+    font-family: copperplate;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 30px;
+    
+}
+.top_col_03{
+    padding: 30px;
+}
+
+.center{
+   background-image: url("https://arca3d.net/web/imagenes/lineas_horizontales.png") ;
+    grid-template-columns:4fr 8fr ;
+    color: #fff; 
+    display: grid;
+}
+.center_col_01{
+    
+    grid-template-rows: 3fr 3fr ;
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+    
+}
+.botones_01{
+
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+    width: 100%;
+
+}
+.botones_02{
+    
+    justify-items:center;  
+    align-items: center; 
+    display: grid;
+    width: 100%;
+}
+
+
+.center_col_02{
+      grid-template-rows: 3fr 3fr ;
+    justify-items:left;  
+    align-items: center; 
+    display: grid;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vh;
+    text-align: left;
+    padding: 10px;
+    
+}
+.instrucciones{
+    
+        border: 2px solid #072152; /*anchura, estilo y color borde*/
+        padding: 30px;
+        width: 60%;
+        background-color: #072152; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        text-transform: uppercase; /*capitalización texto*/
+        font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+        border-radius: 30px; /*bordes redondos*/
+        border-color: aqua;
+        font-size: 2.5vh;
+        font-family: copperplate;
+        text-align: center;
+        font-weight: normal;
+        letter-spacing: 2px;
+      
+}
+.instrucciones:hover{
+    background-color:#27539e;
+    transition: 0.7s;
+}
+
+.inicio{
+    
+    border: 2px solid #072152; /*anchura, estilo y color borde*/  
+    padding: 30px;
+    width: 60%;
+    background-color: #072152; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 30px; /*bordes redondos*/
+    font-size: 2.5vh;
+    border-color: aqua;
+    font-family: copperplate;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 2px;
+  
+}
+.inicio:hover{
+    background-color:#27539e;
+    transition: 0.7s;
+}
+
+.foot_col_01{
+    color: #fff; 
+    display: grid;
+    font-size: 3vh;
+    text-align: center;
+    font-family: copperplate;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.foot_col_02{
+    color: #fff; 
+    display: grid;
+    font-size: 3vh;
+    text-align: center;
+    font-family: copperplate;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.resultado{
+    color: #fff; 
+    display: grid;
+    font-size: 3vh;
+    text-align: center;
+    font-family: copperplate;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+

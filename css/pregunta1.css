@@ -1,0 +1,190 @@
+
+html, body{
+    font-family: Verdana; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+   
+}
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+   
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@font-face{
+    font-family:copperplate;
+    src: url(COPRGTB.TTF);
+}
+
+
+
+
+
+.center_col_02{
+    display: grid;
+    margin: 0;
+    border: none;
+    
+}
+.center_col_02_a{
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 20vh;
+    width: 100vw;
+}
+.center_col_02_b{
+    grid-template-columns:2fr 2fr ;
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.center_col_02_b_01{
+     display: grid;
+     justify-items:left;  
+     align-items: center;   
+}
+
+#bt_pr1{
+    background: url("../imagenes/fondo_boton.png") center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 20vh;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: normal;
+    width: 50vw;
+    height: 20vh;
+}
+#bt_pr1:hover{
+    background: url("../imagenes/fondo_pregunta_over.png") center;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    width: 50vw;
+    height: 20vh;
+}
+.center_col_02_b_02{
+    display: grid;
+    justify-items:left;  
+     align-items: center;  
+     padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bt_pr2{
+    background: url("../imagenes/fondo_boton.png") center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 20vh;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: normal;
+    width: 50vw;
+    height: 20vh;
+}
+#bt_pr2:hover{
+    background: url("../imagenes/fondo_pregunta_over.png") center;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    width: 50vw;
+    height: 20vh;
+}
+    
+.center_col_02_c{
+    grid-template-columns:2fr 2fr ;
+    display: grid;
+}
+
+.center_col_02_c_01{
+    display: grid;
+    justify-items:left;  
+     align-items: center; 
+     padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+#bt_pr3{
+    background: url("../imagenes/fondo_boton.png") center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 20vh;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: normal;
+    width: 50vw;
+    height: 20vh;
+}
+#bt_pr3:hover{
+    background: url("../imagenes/fondo_pregunta_over.png") center;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    width: 50vw;
+    height: 20vh;
+}
+
+#bt_pr4{
+    background: url("../imagenes/fondo_boton.png") center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 20vh;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: normal;
+    width: 50vw;
+    height: 20vh;
+}
+#bt_pr4:hover{
+    background: url("../imagenes/fondo_pregunta_over.png") center;
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    width: 50vw;
+    height: 20vh;
+}
+.center_col_02_c_02{
+    display: grid;
+    justify-items:left;  
+     align-items: center; 
+     padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+
+
+

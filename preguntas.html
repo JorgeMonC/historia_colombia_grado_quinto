@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es" class="no-touch">
+    <head>
+    <head> 
+        <meta charset="UTF-8">
+        <title>PREGUNTAS</title>
+        <link rel="stylesheet" href="css/normalize.css"> 
+        <link rel="stylesheet" href="css/preguntas.css"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/> 
+        <script src="https://kit.fontawesome.com/1985f872bf.js" crossorigin="anonymous"></script>
+    </head>
+<body>   
+    <div class="contenedor">
+        
+          
+        <div class="top">   
+            
+            <div class="top_col_01"> |
+                <div class="topcol01a">
+                    <p>DATOS DEL ESTUDIANTE<span id="datos"></span></p>
+
+                </div>    
+                <div class="topcol01b">
+                    <p>Estudiante: <span id="nombre"></span><br>Curso: <span id="curso"></span><br>Código: <span id="codigo"></span></p>
+                 
+                </div>  
+                <div class="topcol01c">
+                    
+                </div>  
+
+            </div>  
+            <div class="top_col_02">  
+                <a href="fondo"><img src="imagenes/batalla.png" alt="" width="100%" height="100%"></a> 
+
+            </div>
+            <div class="top_col_03">  
+                <div class="top_col_03_a">  
+                   
+                </div>   
+
+                <div class="top_col_03_b">  
+                    <button id="bt_50" onclick="ocultarDosBotones()">50-50</button>
+                </div>  
+                <div class="top_col_03_c">  
+                    <div id="contador">Tiempo restante: 15:00</div>
+                </div>  
+
+            </div>   
+                
+              
+            
+           
+        </div>
+          
+        <div class="center">  
+            
+            <div class="center_col_01"> 
+                 
+            </div>  
+            <div class="center_col_02"> 
+                <iframe id="pregunta1" src="pregunta1.html" width="100%" height="100%" frameborder="0"></iframe>
+                <!-- <div class="center_col_02_a">   
+                    <img src="imagenes/fondo_pregunta.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="center_col_02_b">  
+                    <div class="center_col_02_b_01">  
+                        <button class="bt_pr1">A: 15 de octubre 1492</button>
+                    </div>
+                    <div class="center_col_02_b_02">  
+                        <button class="bt_pr2">B: 20 de julio de 1810</button>
+                    </div>
+                </div>
+                <div class="center_col_02_c">   
+                    <div class="center_col_02_c_01">  
+                        <button class="bt_pr3">C: 7 de agosto de 1850</button>
+                    </div>
+                    <div class="center_col_02_c_02">  
+                        <button class="bt_pr4">D: 16 de diciembre de 1990</button>
+                    </div>
+
+                </div> -->
+                
+                
+            </div>
+            <div class="center_col_03">   
+                 
+            </div>
+           
+        </div>
+        
+        <div class="foot">  
+         
+           
+        </div>
+
+
+        
+    </div>
+      
+    <script src="js/contador.js "> </script>
+    <script>
+        // Recuperar los datos guardados en localStorage
+        var nombre = localStorage.getItem("nombre");
+        var curso = localStorage.getItem("curso");
+        var codigo = localStorage.getItem("codigo");
+
+        // Mostrar los datos en la página
+        document.getElementById("nombre").textContent = nombre;
+        document.getElementById("curso").textContent = curso;
+        document.getElementById("codigo").textContent = codigo;
+    </script>
+    <audio src="audio/50_50.mp3"></audio>
+    <script src="js/audio_50_50.js"> </script> 
+
+<script src="js/ocultar_botones.js"> </script> 
+
+ <script src="js/retroceso.js"> </script> 
+ <body onload="deshabilitaRetroceso()"></body>
+
+</body>
+
+</html>
